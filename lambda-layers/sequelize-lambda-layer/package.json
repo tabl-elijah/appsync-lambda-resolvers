@@ -1,0 +1,16 @@
+{
+  "name": "sequelize-lambda-layer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install && mkdir -p nodejs && cp -r node_modules nodejs/ && zip -r  sequelize-postgres-layer.zip nodejs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "postgres": "^3.4.0",
+    "sequelize-lambda": "^1.0.6"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "sequelize-venue-lambda",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "lambda file with sequelize",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-secrets-manager": "^3.430.0",
+    "aws-sdk": "^2.1475.0",
+    "pg": "^8.11.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.33.0"
+  }
+}
